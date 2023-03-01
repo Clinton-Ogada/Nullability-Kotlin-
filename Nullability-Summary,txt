@@ -1,0 +1,11 @@
+Note: You can also use the == comparison operator for null checks instead of the != operator. 
+When doing so, note that the two bodies are reversed. 
+The body of the if branch assumes that the variable is null and the body of the else branch assumes that the variable is non-nullable.
+
+
+
+The ?: Elvis operator is an operator that you can use together with the ?. safe-call operator. 
+With the ?: Elvis operator, you can add a default value when the ?. safe-call operator returns null. 
+It's similar to an if/else expression, but in a more idiomatic way.
+If the variable isn't null, the expression before the ?: 
+Elvis operator executes. If the variable is null, the expression after the ?: Elvis operator executes
