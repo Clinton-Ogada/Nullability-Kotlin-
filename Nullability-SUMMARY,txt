@@ -9,3 +9,13 @@ With the ?: Elvis operator, you can add a default value when the ?. safe-call op
 It's similar to an if/else expression, but in a more idiomatic way.
 If the variable isn't null, the expression before the ?: 
 Elvis operator executes. If the variable is null, the expression after the ?: Elvis operator executes
+
+
+Summary
+A variable can be set to null to indicate that it holds no value.
+Non-nullable variables cannot be assigned null.
+Nullable variables can be assigned null.
+To access methods or properties of nullable variables, you need to use ?. safe-call operators or !! not-null assertion operators.
+You can use if/else statements with null checks to access nullable variables in non-nullable contexts.
+You can convert a nullable variable to a non-nullable type with if/else expressions.
+You can provide a default value for when a nullable variable is null with the if/else expression or the ?: Elvis operator
